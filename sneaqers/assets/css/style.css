@@ -1,18 +1,37 @@
-html, body{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    max-width: 100%;
-    display: block;
-}
-.section{
-    margin: 10px;
-    padding: 20px;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  max-width: 100%;
+  display: block;
 }
 
-.header{
-    background-image: url("../images/placeholder.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+.section {
+  margin: 10px;
+  padding: 20px;
 }
 
+.header {
+  background-image: url("../images/placeholder.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider {
+  background-color: white;
+  -ms-overflow-style: none;
+}
+
+.slider::-webkit-scrollbar {
+  display: hidden;
+}
+
+input::placeholder {
+  color: #c8ccd1 !important;
+}
+
+a {
+  outline: none;
+  box-shadow: none; 
+}
