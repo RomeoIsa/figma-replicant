@@ -186,51 +186,87 @@
     </section>
     <!--Recommended-->
     <section>
-       <div class="d-flex align-items-center justify-content-center my-5">
+        <div class="d-flex align-items-center justify-content-center my-5">
             <div class="my-3 mx-5 p-4 align-items-center justify-content-center">
                 <h2 class="text-dark text-center fs-1 ">Most Recommended Collection For You</h2>
-                <p class="text-secondary text-center" >Find expertly curated sneakers crafted for style and everyday wear,  <br>Elevate you footwear with comfort-driven, timless design</p>
+                <p class="text-secondary text-center">Find expertly curated sneakers crafted for style and everyday wear, <br>Elevate you footwear with comfort-driven, timless design</p>
             </div>
-       </div>
-       <!--Card Section A-->
+        </div>
+        <!--Card Section A-->
         <div class="d-flex flex-row align-content-center justify-content-center gap-4">
             <div class="div1 align-items-center justify-content-center rounded" style="background-image: url('../assets/images/placeholder.png'); width:700px; height:723px; background-repeat:no-repeat; background-size:cover;">
                 <div class="div1text d-flex flex-column align-items-centre justify-content-center ms-5">
                     <h3 class="text-light mb-3" style="margin-top:590px; ">Sneakers</h3>
-                    <button class="btn btn-lg btn-light text-dark rounded-pill fs-5 p-2 text-center" style="width:200px; height:50px;">View all sneakers</button>
+                    <button class="btn btn-lg btn-light text-dark rounded-pill fs-6 fw-bold p-2 text-center" style="width:200px; height:50px;">View all sneakers<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrow-up-right ms-2 " viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+                        </svg></button>
                 </div>
             </div>
             <div class="d-flex flex-column gap-4">
-                <div class="div2 align-items-center justify-content-center rounded" style="background-image: url('../assets/images/placeholder.png'); width:700px; height:350px; background-repeat:no-repeat; background-size:cover;"></div>
-                <div class="div2 align-items-center justify-content-center rounded" style="background-image: url('../assets/images/placeholder.png'); width:700px; height:350px; background-repeat:no-repeat; background-size:cover;"></div>
-        </div>
-        </div>
+                <div class="div2 align-items-center justify-content-center rounded" style="background-image: url('../assets/images/placeholder.png'); width:700px; height:350px; background-repeat:no-repeat; background-size:cover;">
+                    <div class="div2textA align-items-center justify-content-center d-flex flex-column " style="margin-left:-400px;">
+                        <h3 class="text-light mb-3 text-left" style="margin-top:223px; margin-left:-140px;">Bags</h3>
+                        <button class="btn btn-lg btn-light text-dark rounded-pill fs-6 fw-bold p-2 text-center" style="width:200px; height:50px;">View all bags<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrow-up-right ms-2" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+                            </svg></button>
+                    </div>
+                </div>
+                <div class="div2 align-items-center justify-content-center rounded" style="background-image: url('../assets/images/placeholder.png'); width:700px; height:350px; background-repeat:no-repeat; background-size:cover;">
+                    <div class="div2textB align-items-center justify-content-center d-flex flex-column" style="margin-left:-400px;">
+                        <h3 class="text-light mb-3" style="margin-top:223px; margin-left:-80px;">Headwear</h3>
+                        <button class="btn btn-lg btn-light text-dark rounded-pill fs-6 fw-bold p-2 text-center" style="width:200px; height:50px;">View all headwear<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrow-up-right ms-2" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+                            </svg></button>
+                    </div>
+                </div>
             </div>
-            
-    </section>
-   <section>
-  <div class="m-5">
+        </div>
+        </div>
+        <!--Card Section B-->
+        <div class="my-4 mx-5">
+            <div class="div3 d-flex flex-column justify-content-center align-items-center rounded" style="background-image:url('../assets/images/placeholder.png'); background-repeat: none; background-size: cover; height:400px;">
+                <div class="div3text align-items-center justify-content-center d-flex flex-column" style="margin-left:-1150px;">
+                        <h3 class="text-light mb-3" style="margin-top:223px; margin-left:-80px;">Sunglasses</h3>
+                        <button class="btn btn-lg btn-light text-dark rounded-pill fs-6 fw-bold p-2 text-center" style="width:230px; height:50px;">View all sunglasses<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrow-up-right ms-2" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+                            </svg></button>
+                    </div>   
+            </div>
 
-    <div
-      class="d-flex flex-column justify-content-center align-items-center text-center rounded p-5"
-      style="background-image: url('../assets/images/placeholder.png');
+        </div>
+    </section>
+    <!--Grid selection--> 
+    <section>
+        <div class="d-flex-flex-column">
+            <!--Upper Row--> 
+            <div class="upperrow d-flex flex-row"></div>
+            <!--Lower Row--> 
+            <div class="lowerrow d-flex flex-row"></div>
+        </div>
+    </section>
+    <section>
+        <div class="m-5">
+
+            <div
+                class="d-flex flex-column justify-content-center align-items-center text-center rounded p-5"
+                style="background-image: url('../assets/images/placeholder.png');
              background-repeat: no-repeat;
              background-size: cover;
-             height: 550px;"
-    >
+             height: 550px;">
 
-      <h1 class=" text-light mb-3 text-justify " style="max-width: 1000px; margin-top:-20px; font-size: 60px;">
-        Build Your Style With Confident Steps By Wearing Our Sneakers
-      </h1>
+                <h1 class=" text-light mb-3 text-justify " style="max-width: 1000px; margin-top:-20px; font-size: 60px;">
+                    Build Your Style With Confident Steps By Wearing Our Sneakers
+                </h1>
 
-      <h5 class="text-light mt-4" style="max-width: 700px;">
-        From iconic drops to timeless classics, discover authentic sneakers designed for comfort, style, and everyday confidence.
-      </h5>
-        <button class="btn text-dark btn-light rounded-pill mt-5">Shop Now</button>
-    </div>
+                <h5 class="text-light mt-4" style="max-width: 700px;">
+                    From iconic drops to timeless classics, discover authentic sneakers designed for comfort, style, and everyday confidence.
+                </h5>
+                <button class="btn text-dark btn-light rounded-pill mt-5">Shop Now</button>
+            </div>
 
-  </div>
-</section>
+        </div>
+    </section>
+
     <!--Footer Section-->
     <section>
         <?php include "../includes/footer.html" ?>
