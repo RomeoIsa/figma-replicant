@@ -12,19 +12,16 @@ body {
   padding: 20px;
 }
 
-.header {
-  background-image: url("../images/placeholder.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .slider {
-  background-color: white;
   -ms-overflow-style: none;
+   scrollbar-width: none;
+   overflow-x: auto; 
 }
 
 .slider::-webkit-scrollbar {
-  display: hidden;
+  width: 0;
+  height: 0;
 }
 
 input::placeholder {
